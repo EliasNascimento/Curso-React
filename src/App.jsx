@@ -5,12 +5,22 @@ import ComParametro from './components/basicos/ComParametro'
 import Fragmento from './components/basicos/fragmento'
 import Aleatorio from './components/basicos/Aleatorio.jsx';
 import Card from './components/layout/Card.jsx';
+import ListaAlunos from './components/repeticao/ListaAlunos';
+import ListaProdutos from './components/repeticao/ListaProdutos';
 
 export default () => {
     return (
         <div className="App">
             <h1>Fundamentos React</h1>
             <div className="Cards">
+                <Card titulo="#07 - Repetição Produtos">
+                    <ListaProdutos></ListaProdutos>
+                </Card>
+
+                <Card titulo="#06 - Repetição Alunos">
+                    <ListaAlunos></ListaAlunos>
+                </Card>
+
                 <Card titulo="#04 - Desafio Aleatório">
                     <Aleatorio
                         min={1}
