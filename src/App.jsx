@@ -30,11 +30,7 @@ export default () => {
                 <Card titulo="#08 - Renderização Condicional" color="#982395">
                     <ParOuImpar numero={21}></ParOuImpar>
                     <UsuarioInfo usuario={{ nome: 'Elias' }}></UsuarioInfo>
-                </Card>
-
-                <Card titulo="#08 - Renderização Condicional" color="#982395">
-                    <ParOuImpar numero={21}></ParOuImpar>
-                </Card>
+                </Card>               
 
                 <Card titulo="#07 - Desafio Repetição" color="#3A9AD9">
                     <TabelaProdutos></TabelaProdutos>
